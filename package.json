@@ -1,10 +1,10 @@
 {
-  "name": "redux-rest-reducer",
-  "version": "0.6.5",
+  "name": "@guggugit/rest-reducer",
+  "version": "1.0.0",
   "description": "Restfull reducer for redux",
   "main": "./distribution/index.js",
   "module": "distribution/index.js",
-  "repository": "git@github.com:sandeepguggu/rest-reducer.git",
+  "repository": "git@github.com:guggu-git/rest-reducer.git",
   "author": "Sandeep Gunduboyina <sandeepgy11@gmail.com>",
   "license": "MIT",
   "prettier": "@guggugit/prettier-config",
