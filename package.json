@@ -1,8 +1,8 @@
 {
   "name": "@guggugit/rest-reducer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Restfull reducer for redux",
-  "main": "./distribution/index.js",
+  "main": "distribution/index.js",
   "module": "distribution/index.js",
   "repository": "git@github.com:guggu-git/rest-reducer.git",
   "author": "Sandeep Gunduboyina <sandeepgy11@gmail.com>",
