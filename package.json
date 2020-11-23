@@ -44,7 +44,7 @@
     "test": "jest --watch",
     "lint": "eslint test",
     "build": "npm run clean && BABEL_ENV=production rollup -c",
-    "buildwatch": "npm run clean && BABEL_ENV=production rollup -c -w --environment GENERATE_MAPS",
+    "buildwatch": "npm run clean && BABEL_ENV=production rollup -c -w",
     "precommit": "lint-staged",
     "prepublishOnly": "npm run build",
     "prepare": "install-peers",

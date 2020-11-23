@@ -5,15 +5,13 @@ import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs';
 import pkg from './package.json';
 
-const generateSourceMaps = process.env.GENERATE_MAPS === 'true';
-
 export default {
   input: 'lib/index.js',
   output: {
     file: pkg.module,
     format: 'cjs',
     exports: 'named',
-    sourcemap: generateSourceMaps,
+    sourcemap: true,
     sourcemapPathTransform: relativeSourcePath => {
       return path.resolve('distribution', relativeSourcePath);
     },
