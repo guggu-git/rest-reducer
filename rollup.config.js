@@ -13,7 +13,13 @@ export default {
     exports: 'named',
     sourcemap: true,
     sourcemapPathTransform: relativeSourcePath => {
-      return path.resolve('distribution', relativeSourcePath);
+      const absoluteSourcePath = path.resolve('distribution', relativeSourcePath);
+      const prefixedSourcePath = absoluteSourcePath.replace(
+        __dirname,
+        `/${pkg.name}`
+      );
+
+      return prefixedSourcePath;
     },
   },
   plugins: [
