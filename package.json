@@ -1,6 +1,6 @@
 {
   "name": "@guggugit/rest-reducer",
-  "version": "1.0.2-alpha.5",
+  "version": "1.0.2-alpha.6",
   "description": "Restfull reducer for redux",
   "main": "distribution/index.js",
   "module": "distribution/index.js",
